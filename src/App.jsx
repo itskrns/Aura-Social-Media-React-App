@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import Profile from "./pages/Profile";
 import AppLayout from "./ui/AppLayout";
 import GlobalStyles from "./styles/GlobalStyles";
+import AuthPage from "./ui/AuthPage";
 
 const router = createBrowserRouter([
   {
@@ -14,6 +15,7 @@ const router = createBrowserRouter([
       { path: "/explore", element: <Explore /> },
     ],
   },
+  { path: "/authPage", element: <AuthPage /> },
 ]);
 
 function App() {
